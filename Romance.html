@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romance</title>
+     <style>
+        .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .book {
+        width: 363px;
+        text-align: center;
+        margin: 10px;
+    }
+    img {
+        width: 363px;
+    height: 517px;
+    }
+    .imgCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booksRow1 img {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bookCaption {
+    text-align: center;
+    margin-top: 5px;
+}
+footer {
+        background-color: #000;
+        width: 100%; /* Ширина на всю ширину экрана */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px; /* Добавлен отступ */
+        box-sizing: border-box; /* Учтено внутреннее содержимое и отступы в общей ширине */
+    }
+    
+    footer a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+   
+    <div class="imgCenter">
+        <div class="book"><img id="a1" src="https://knigolub.net/uploads/posts/2023-09/medium/1694174904_oblozhka_slishkom_mnogo_pravdy.jpg" alt="error"> <p class="bookCaption">Григорьева|Слишком много правды</p></div>
+        <div class="book"><img id="a2" src="https://knigolub.net/uploads/posts/2023-09/medium/1693816865_grigoreva_i_tak_byivaet.jpg" alt="error"> <p class="bookCaption">Григорьева|Так бывает</p></div>
+        <div class="book"><img  src="https://knigolub.net/uploads/posts/2023-02/medium/1676923010_cover.jpg" alt="error"> <p class="bookCaption">Ледовская|НА ГРАНИ ДОВЕРИЯ</p></div>
+        <div class="book"><img id="a3" src="https://knigolub.net/uploads/posts/2023-02/medium/1676181385_ledovskaya_ya-tebe-posylayu-lyubov_2_krylya-v-bagazhe-kniga-vtoraya.jpg" alt="error"> <p class="bookCaption">Ледовская|Крылья в багажнике</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2023-02/medium/1675925520_ledovskaya_ya-tebe-posylayu-lyubov.jpg" alt="error"> <p class="bookCaption">Ледовская|Я тебе посылаю любовь</p></div>
+        <div class="book"><img id="a4" src="https://knigolub.net/uploads/posts/2020-06/medium/1593517433_ivanova_status-beremenna-ot-zheniha-podrugi.jpg" alt="error"> <p class="bookCaption">ИВАНОВА|СТАТУС: БЕРЕМЕННА ОТ ЖЕНИХА ПОДРУГИ</p></div>
+        <div class="book"><img id="a5" src="https://knigolub.net/uploads/posts/2020-06/medium/1593512772_rossi_sidelka.jpg" alt="error"> <p class="bookCaption">РОССИ|Сиделка</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2019-12/1576228854_airin-laks_schastie-luboi-tsenoi.jpg" alt="error"> <p class="bookCaption">ЛАКС|СЧАСТЬЕ ЛЮБОЙ ЦЕНОЙ</p></div>
+        <div class="book"><img id="a6" src="https://knigolub.net/uploads/posts/2019-07/medium/1563352947_tierpkii-zapakh-tisa-si-anna-zhillo.jpg" alt="error"> <p class="bookCaption">ЖИЛЛО|ТРЕПКИЙ ЗАПАХ ТИСА</p></div>
+        <div class="book"><img id="a7" src="https://knigolub.net/uploads/posts/2019-07/medium/1563203788_cherchen_dzhentlmenskiy-klub-zlo-bezumno-vlyublennyy.jpg" alt="error"> <p class="bookCaption">ЧЕРЧЕНЬ|БЕЗУМНО ВЛЮБЛЕННЫЙ</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2019-06/1561120392_ia-budu-v-maskie-si-ksieniia-karietnikova.jpg" alt="error"> <p class="bookCaption">Каретникова|Я БУДУ В МАСКЕ</p></div>
+        <div class="book"><img id="a8" src="https://knigolub.net/uploads/posts/2019-06/1561114648_niezhnost-v-khrustalnykh-tufi-aiia-subbotina.jpg" alt="error"> <p class="bookCaption">Субботина|НЕВИННОСТЬ В ХРУСТАЛЬНЫХ ТУФЕЛЬКАХ</p></div>
+        <div class="book"><img id="a9" src="https://knigolub.net/uploads/posts/2019-03/medium/1553253484_svobodina-besstrashnaya-pomoshchnica-dlya-dyavola.jpg" alt="error"> <p class="bookCaption">СВОБОДИНА|БЕССТРАШНАЯ ПОМОШНИЦА ДЛЯ ДЬЯВОЛА</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2019-03/medium/1552551257_uatt-raskolotoe_korolevstvo.jpg" alt="error"> <p class="bookCaption">УАТТ|РОСКОЛОТОЕ КОРОЛЕВСТВО</p></div>
+        <div class="book"><img id="a10" src="https://knigolub.net/uploads/posts/2019-03/medium/1552476898_uatt_semya-royalov_4_otvergnutyy-naslednik.jpg" alt="error"> <p class="bookCaption">УАТТ|ОТВЕРГНУТЫЙ НАСЛЕДНИК</p></div>
+        <div class="book"><img id="a11" src="https://knigolub.net/uploads/posts/2019-03/medium/1552390508_erin_uatt-razrushennyy_dvorets.jpg" alt="error"> <p class="bookCaption">УАТТ|РАЗРУШЕННЫЙ ДВОРЕЦ</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-11/medium/1541518991_subbotina_neporochnaya_dlya_merzavtsa.jpg" alt="error"> <p class="bookCaption">СУББОТИНА|НЕПОРОЧНАЯ ДЛЯ МЕРЗАВЦА</p></div>
+        <div class="book"><img id="a12" src="https://knigolub.net/uploads/posts/2018-11/medium/1541350943_svobodina_tainstvennaya_pomoschnitsa_dlya_chuzhaka.jpg" alt="error"> <p class="bookCaption">СВОБОДИНА|ТАИНСТВЕННАЯ ПОМОШНИЦА ДЛЯ ЧУЖАКА</p></div>
+        <div class="book"><img id="a13" src="https://knigolub.net/uploads/posts/2018-09/medium/1538127217_garmash-roffe_nauka-strasti-nezhnoy.jpg" alt="error"> <p class="bookCaption">ГАРМАШ-РОФФЕ|НАУКА СТРАСТИ НЕЖНОЙ</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-09/1537181180_koff_perevospitat_ohlamona.jpg" alt="error"> <p class="bookCaption">Кофф|ПЕРЕВОСПИТАТЬ ОХЛАМОНА</p></div>
+        <div class="book"><img id="a14" src="https://knigolub.net/uploads/posts/2018-09/medium/1536672532_kovalenko_overtaym_2_zhgi_detka.jpg" alt="error"> <p class="bookCaption">КОВАЛЕНКО|ЖГИ, DЕТКА!</p></div>
+        <div class="book"><img id="a15" src="https://knigolub.net/uploads/posts/2018-09/1536050614_nikolaeva_ne_svyatoy_valentin.jpg" alt="error"> <p class="bookCaption">Николаева|НЕ СВЯТОЙ ВАЛЕНТИН</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-08/medium/1534840488_lyuis_houk.jpg" alt="error"> <p class="bookCaption">ЛЬЮИС|ХОУК</p></div>
+        <div class="book"><img id="a16" src="https://knigolub.net/uploads/posts/2018-08/1534760071_svobodina_vyinuzhdennaya_pomoschnitsa_dlya_tirana.jpg" alt="error"> <p class="bookCaption">СВОБОДИНА|ВЫНУЖДЕННАЯ ПОМОШНИЦА ДЛЯ ТИРАНА</p></div>
+        <div class="book"><img id="a17" src="https://knigolub.net/uploads/posts/2018-08/medium/1534144542_svobodina_predannaya_pomoschnitsa_dlya_kumira.jpg" alt="error"> <p class="bookCaption">СВОБОДИНА|ПРЕДАННАЯ ПОМОШНИЦА ДЛЯ КУМИРА</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-08/1533819310_millyur_kak_ne_soyti_s_uma_ot_lyubvi.jpg" alt="error"> <p class="bookCaption">Как не сойти с ума от любви. Пособие для тех, кто влип.</p></div>
+        <div class="book"><img id="a18" src="https://knigolub.net/uploads/posts/2018-08/1533371990_everhart_nuzhdayas_v_ney.jpg" alt="error"> <p class="bookCaption">Эверхарт|Нуждаясь в ней</p></div>
+        <div class="book"><img id="a19" src="https://knigolub.net/uploads/posts/2018-08/medium/1533106929_soboleva_pautina.jpg" alt="error"> <p class="bookCaption">Соболева|ПАУТИНА</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-07/medium/1532676559_kolochkova_bez-opyta-zamuzhestva.jpg" alt="error"> <p class="bookCaption">Калачкова|Без опыта замужевства</p></div>
+        <div class="book"><img id="a20" src="https://knigolub.net/uploads/posts/2018-07/medium/1531986360_riz_sluchaynaya.jpg" alt="error"> <p class="bookCaption">Риз|СЛУЧАЙНАЯ</p></div>
+        <div class="book"><img id="a21" src="https://knigolub.net/uploads/posts/2018-07/medium/1530983964_barro_kafe-malenkih-chudes.jpg" alt="error"> <p class="bookCaption">Барро|КАФЕ МАЛЕНЬКИХ ЧУДЕС</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-06/medium/1530261674_makdonald_narisovannaya-chernilami.jpg" alt="error"> <p class="bookCaption">МакДональд|Нарисованная Чернилами</p></div>
+        <div class="book"><img id="a22" src="https://knigolub.net/uploads/posts/2018-06/medium/1530093785_dzhuel_poraboschennaya_okeanom.jpg" alt="error"> <p class="bookCaption">Джуэл|ПОРАБОЩЕННАЯ ОКЕАНОМ</p></div>
+        <div class="book"><img id="a23" src="https://knigolub.net/uploads/posts/2018-06/medium/1529572613_kleyton_finalnyy-shtrih.jpg" alt="error"> <p class="bookCaption">Клейтон|Финальный Штрих</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-06/medium/1529229074_mur_pochti-slomana.jpg" alt="error"> <p class="bookCaption">МУР|Почти сломана</p></div>
+        <div class="book"><img id="a24" src="https://knigolub.net/uploads/posts/2018-06/medium/1528651110_hokins_nevinnaya-ogovorka.jpg" alt="error"> <p class="bookCaption">ХОКИНС|НЕВИННАЯ ОГОВОРКА</p></div>
+        <div class="book"><img id="a25" src="https://knigolub.net/uploads/posts/2018-06/medium/1528647186_maylz_vlyublennyie_gluptsyi_2_glupets.jpg" alt="error"> <p class="bookCaption">МАЙЛЗ|Глупец</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-05/medium/1526979105_karter_lesorub.jpg" alt="error"> <p class="bookCaption">Картер|Лесоруб</p></div>
+        <div class="book"><img id="a26" src="https://knigolub.net/uploads/posts/2018-05/medium/1525715556_rayan_nepristoynaya_blistatelnaya_strast.jpg" alt="error"> <p class="bookCaption">Райан|НЕПРИСТОЙНАЯ</p></div>
+        <div class="book"><img id="a27" src="https://knigolub.net/uploads/posts/2018-05/medium/1525621248_bey_princ-park-avenyu.jpg" alt="error"> <p class="bookCaption">БЕЙ|Принц Парк Авеню</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-05/medium/1525357011_vedenskaya_o-rycaryah-i-lzhecah.jpg" alt="error"> <p class="bookCaption">Веденская|О рыцарях и лжецах</p></div>
+        <div class="book"><img id="a28" src="https://knigolub.net/uploads/posts/2018-05/medium/1525188639_bil_torguyushchaya-naslazhdeniem.jpg" alt="error"> <p class="bookCaption">БИЛ|торгующая наслаждением</p></div>
+        <div class="book"><img id="a29" src="https://knigolub.net/uploads/posts/2018-04/medium/1524830985_keti_regneri_-_krasavitsa_i_veteran.jpg" alt="error"> <p class="bookCaption">РЕГНЕРИ|Красавица и Ветеран</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-04/medium/1524333568_uolker_spenser_koen_lp.jpg" alt="error"> <p class="bookCaption">УОЛКЕР|Спэнсер Каэн. КНИГА ПЕРВАЯ </p></div>
+        <div class="book"><img id="a30" src="https://knigolub.net/uploads/posts/2018-03/medium/1520590019_dori_lavell_nochi_lakler.jpg" alt="error"> <p class="bookCaption">ЛАВЕЛЛЬ|НОЧИ ЛаКлер</p></div>
+        <div class="book"><img id="a31" src="https://knigolub.net/uploads/posts/2018-04/medium/1524247957_maknelli_devchonki_na_lune_lp.jpg" alt="error"> <p class="bookCaption">МакНЭЛЛИ|девчонки на луне</p></div>
+        <div class="book"><img src="https://knigolub.net/uploads/posts/2018-04/medium/1524041494_rayli_pohischenie_rozhdestva_lp.jpg" alt="error"> <p class="bookCaption">РАЙЛИ|ПОХИЩЕНИЕ Рождевства</p></div>
+        <div class="book"><img id="a32" src="https://knigolub.net/uploads/posts/2018-03/medium/1520950754_uait_mara_bolny_lubovu.jpg" alt="error"> <p class="bookCaption">УАЙТ|(БОЛЬНЫ ЛЮБОВЬЮ)</p></div>
+        </div>
+<footer>
+    <a href="Fantasy.html">Fantasy</a>
+    <a href="Science Fiction.html">Science Fiction</a>
+    <a href="Dystopian Fiction.html">Dystopian Fiction</a>
+    <a href="Detective Fiction.html">Detective Fiction</a>
+    <a href="Romance.html">Romance</a>
+    <a href="contact-about_us.html">contact|about us</a>
+
+    <style>
+        
+       .about{
+        opacity: 0;
+        text-align: center;
+        width: 350px;
+    height: 517px;
+       }
+   
+    </style>
+    <script>
+let divs = document.querySelectorAll('.book');
+
+for (let i = 0; i < divs.length; i++) {
+    divs[i].id = 'div' + (i + 1);
+}
+
+ //Григорьева|Слишком много правды
+ document.querySelector('#a1').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2023-09/medium/1694174904_oblozhka_slishkom_mnogo_pravdy.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Марина вдруг осознала, что не верит мужу, и никогда не верила до конца. Никита за шесть лет так и не смирился с уходом жены, любит ее до сих пор. Без нее не получается быть счастливым. Леша любит двух девчонок. Так и называет их – мои девчонки. Оля считает свою любовь болезнью. Но из любой ситуации есть выход. По крайней мере, его можно поискать там, где вход.`;
+
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});
+
+        })
+//Ледовская|НА ГРАНИ ДОВЕРИЯ
+document.querySelector('#a2').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2023-02/medium/1676923010_cover.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Со времени последних событий, описанных в романах "Я тебе посылаю любовь" и "Крылья в багаже", прошло семь лет. У Николая и Надежды Фертовских растёт дочь. Вадим Зорин преподаёт в университете, время от времени встречаясь со своими студентами в неформальной обстановке. Одна из студенток ему особенно по душе. Жизнь идёт своим чередом. Однако её привычный уклад нарушает внезапный приезд из Америки сына Николая. Вот тут и всплывают наружу тайны, связанные с прошлым, среди которых фамильный раритет с наложенным на него проклятьем. В события, произошедшие в доме Фертовского-старшего, так или иначе, оказываются вовлечёнными все члены семьи. Потеря доверия, боль разочарований, жизненные уроки - через всё это пройдут герои книги. Однако они сумеют сохранить честь, искренность и, конечно же, любовь.`;
+
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});
+
+        })
+       
+//Ледовская|Крылья в багажнике
+document.querySelector('#a3').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2023-02/medium/1676181385_ledovskaya_ya-tebe-posylayu-lyubov_2_krylya-v-bagazhe-kniga-vtoraya.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Продолжение романа «Я тебе посылаю любовь». Обычно все романтические истории заканчиваются объяснением в любви или свадьбой. Но как часто нам хочется узнать – а что 
+    же было дальше? Что случилось с героями, сумели ли они сохранить свои чувства, не пожалели о том, что связали жизнь друг с другом, а может, любовь между ними стала 
+    сильнее? Роман «Крылья в багаже» является тем самым продолжением историй любви между Николаем и Надеждой, между Вадимом и Викторией, тем, что их ждет, что придется 
+    преодолеть, испытать, найти, даже потерять. Читателя ждет увлекательное путешествие вместе с героями на Сейшельские острова, зимние вечера в полюбившемся Беляниново 
+    и даже путешествие во времени. А почему бы и нет? Ведь, несмотря на кажущиеся изменения, вечными остаются настоящие ценности – доброта, отвага, нежность, дружба и, 
+    наконец, любовь.`;
+
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+//ИВАНОВА|СТАТУС: БЕРЕМЕННА ОТ ЖЕНИХА ПОДРУГИ
+document.querySelector('#a4').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2020-06/medium/1593517433_ivanova_status-beremenna-ot-zheniha-podrugi.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Что вы знаете о невезении? Проиграть подруге ночь с незнакомцем? Пф, это еще ерунда. Потерять девственность в объятиях ее жениха? Оказывается, и это еще цветочки. А вот ягодки, точнее, самая настоящая Катастрофа наступила, когда стало понятно, что я беременна. От него. Ну и вишенка на торте моих неудач: я поклялась подруге, что организую их свадьбу, и отвертеться уже не получится. И да, я влюбилась... Ну так что вы знаете о невезении?`;
+
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+//РОССИ|Сиделка
+document.querySelector('#a4').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2020-06/medium/1593512772_rossi_sidelka.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `«Сиделка, окончившая лекарские курсы при Брегольском медицинском колледже, предлагает услуги по уходу за одинокой пожилой дамой или девицей. Исполнительная, аккуратная, честная. Имеются лицензия на работу и рекомендации. Для заключения договора просьба обращаться в бюро по найму номер шесть, располагающееся по адресу: Бреголь, Кобург-рейне, дом 23». В тот день, когда писала это объявление, я и предположить не могла, к каким последствиям оно приведет. Впрочем, началось все не с него. Раньше. С того самого момента, как я оказала помощь незнакомому раненому магу. А ведь в Дартштейне даже дети знают, что от магов лучше держаться подальше. «Видишь одаренного – перейди на другую сторону улицы», — любят повторять дарты. Увы, мне пришлось на собственном опыте убедиться, что поговорки не лгут и что ни одно доброе дело не останется безнаказанным.`
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+//ЖИЛЛО|ТРЕПКИЙ ЗАПАХ ТИСА
+document.querySelector('#a5').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2019-07/medium/1563352947_tierpkii-zapakh-tisa-si-anna-zhillo.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `У Валерии есть все: любящий муж, прекрасные дети, успешная карьера. Ее жизнь налажена, и она не хотела бы что-то в ней менять. Но однажды ей предоставляется возможность вернуться в прошлое и снова пережить всего одно мгновение своей юности. После этого в ее настоящем появляется старая школьная любовь, и все начинает рушиться...`
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+//ЧЕРЧЕНЬ|БЕЗУМНО ВЛЮБЛЕННЫЙ
+document.querySelector('#a5').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2019-07/medium/1563203788_cherchen_dzhentlmenskiy-klub-zlo-bezumno-vlyublennyy.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Жизнь полна контрастов. Меня зовут Дженнивер Риверс и еще вчера я была одной из самых ярких дебютанток высшего общества, а сегодня брат проиграл все наше состояние. Тому, кого я отвергала много раз. Тому, чьи чувства пугают и заставляют трепетать. Кто из нас выйдет победителем из этой игры? Что окажется сильнее - мужская настойчивость или женская хитрость?`
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+//Субботина|НЕВИННОСТЬ В ХРУСТАЛЬНЫХ ТУФЕЛЬКАХ
+document.querySelector('#a5').addEventListener('click', function (params) {
+            document.body.innerHTML = "";
+            const img = document.createElement("img");
+img.src = "https://knigolub.net/uploads/posts/2019-06/1561114648_niezhnost-v-khrustalnykh-tufi-aiia-subbotina.jpg";
+img.alt = "";
+
+const p = document.createElement("p");
+p.textContent = `Я – Хорошая домашняя «умница».
+Он – Плохой парень, которому нет дела до кольца у меня на пальце.
+Я – Варя Данилова, преподаватель литературы в престижной академии.
+Он – Даня «Лень» Ленский, мой студент с «галерки».`
+document.body.appendChild(img);
+document.body.appendChild(p);
+const reloadButton = document.createElement("button");
+reloadButton.textContent = "Назад";
+reloadButton.id = "reloadButton";
+document.body.appendChild(reloadButton);
+
+document.querySelector('#reloadButton').addEventListener('click', function (params) {
+    location.reload();
+});})
+    </script>
+</footer>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
